@@ -6,14 +6,21 @@ Fetch author-level metrics from Scopus using Pybliometrics. Inputs can be a text
 
 **Run the following in a bash (Linux) or a command prompt (Windows) terminal to setup the python environment:**
 1) Setup virtual environment:
+   
 	```pip install virtualenv``` (if virtualenv is not already installed)
-2) Create a new virtual environment (called venv here)
+3) Create a new virtual environment (called venv here):
+   
 	```virtualenv venv```
-3) Enter the virtual environment
+5) Enter the virtual environment:
+   
 	```source venv/bin/activate``` (Linux)
+
 	OR
+	
 	```venv\Scripts\activate``` (Windows)
-4) Install the required pacakges in the current environment.
+
+7) Install the required pacakges in the current environment:
+	
 	```pip install -r requirements.txt```
 
 **Establish access to Scopus:**
@@ -40,5 +47,5 @@ Fetch author-level metrics from Scopus using Pybliometrics. Inputs can be a text
 	- `python main.py --name "Paul A Dayton" --name "Jane Doe" --output author_metrics.xlsx`
 
 
-### Note:
+### Note
 - Example names in the names.txt file are current members of the [Dayton Lab](https://daytonlab.sites.unc.edu/?page_id=26) (as of Feb. 2026).
